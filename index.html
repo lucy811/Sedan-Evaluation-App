@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>Sedan Evaluation</title>
+    </head>
+
+    <body>
+
+        <div class="top">
+            <div class="bestbuy">
+                <div class="bestbuy__title">
+                    The Highest Price–Performance Ratio Sedan in <span class="bestbuy__title--year">%Year%</span>:
+                </div>
+                
+                <div class="bestbuy__value"></div>
+
+            </div>
+        </div>
+        
+        <div class="bottom">
+            <div class="add">
+                <div class="add__container">
+                    <select class="add__type">
+                        <option value="performance" selected>+</option>
+                        <option value="cost">-</option>
+                    </select>
+                    <input type="text" class="add__description" placeholder="Add description">
+                    <input type="number" class="add__value" placeholder="Value">
+                    <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
+                </div>
+            </div>
+            
+            <div class="container clearfix">
+                <div class="performance">
+                    <h2 class="performance__title">Performance</h2>
+                    
+                    <div class="performance__list">
+             
+                    </div>
+                </div>
+                
+                <div class="costs">
+                    <h2 class="costs__title">Cost</h2>
+                    
+                    <div class="costs__list">
+                       
+                    </div>
+                </div>
+
+                <div class="ranking">
+                    <h2 class="ranking__title">Ranking <button class="ranking__btn"><i class="ion-android-car"></i></button></h2>
+                    
+                    <div class="ranking__list">
+                        
+                    </div>
+                </div>
+            </div> 
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
