@@ -8,8 +8,9 @@ This app can calculate different kinds of cars’ price-performance ratio. Accor
 4. At last, the highest price-performance ratio will show the top of UI.
 
 Example Sample
+
 | Performance |    Cost     |   Ranking   |
-| ----------- | ----------- | ----------- |
+|-------------|-------------|-------------|
 |  Camry 65   |  Camry 70   | Camry 93%   |
 |  Passat 65  |  Passat 75  | Passat 87%  |
 |  Civic 50   |  Civic 60   | Fusion 86%  |
