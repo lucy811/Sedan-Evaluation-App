@@ -197,11 +197,11 @@ var UIController = (function() {
             if (type === 'performance') {
                 element = DOMstrings.performanceContainer;
                 
-                html = '<div class="item clearfix" id="performance-%id%"> <div class="item__description">%description%</div><div class="right clearfix"><div class="item__value">%value%</div><div class="item__delete"><button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button></div></div></div>';
+                html = '<div class="item clearfix" id="performance-%id%"> <div class="item__description">%description%</div><div class="right clearfix"><div class="item__value">%value%</div><div class="item__delete"><button class="item__delete--btn"><i class="fa fa-trash-o" aria-hidden="true"></i></button></div></div></div>';
             } else if (type === 'cost') {
                 element = DOMstrings.costsContainer;
                 
-                html = '<div class="item clearfix" id="cost-%id%"><div class="item__description">%description%</div><div class="right clearfix"><div class="item__value">%value%</div><div class="item__delete"><button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button></div></div></div>';
+                html = '<div class="item clearfix" id="cost-%id%"><div class="item__description">%description%</div><div class="right clearfix"><div class="item__value">%value%</div><div class="item__delete"><button class="item__delete--btn"><i class="fa fa-trash-o" aria-hidden="true"></i></button></div></div></div>';
             }
             
             // Replace the placeholder text with some actual data
